@@ -51,25 +51,30 @@
 
 	* 기본 
 	
+	
 	 `python neural_dream.py -content_image <image_path/image.jpg> `
+
 
  	* Result에 사용된 코드
 	
 	
-	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 0.5 -image_size 1024 -output_image learning5.png` 
+		`python neural_dream.py -content_image konkuk.jpg -image_size 1024 -output_image learninggif.png -create_gif -num_iterations 10 `
+	
+	
+		`python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 0.5 -image_size 1024 -output_image learning5.png` 
 
 
-	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png` 
+		`python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png` 
 
 
-	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png ` <br>
-
+		`python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png ` <br>
 
 
 * ## 옵션 [[출처]](https://github.com/ProGamerGov/neural-dream#usage)
 
 
 	**Options**:
+
 
 -   `-image_size`: Maximum side length (in pixels) of the generated image. Default is 512.
 -   `-gpu`: Zero-indexed ID of the GPU to use; for CPU mode set  `-gpu`  to  `c`.
