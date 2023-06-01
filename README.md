@@ -6,14 +6,17 @@
  * ID :  202011248
 
 # Topic Introduction
+
 * ## 딥 드림 (Deep-Dream, Neural-dream)
 	* 딥 드림(Deep-Dream)은 합성곱-신경망(Convolutional neural network, CNN)이 학습한 패턴을 시각화(Visualize)한 알고리즘입니다.
 	
 	* 입력된 이미지에 의도적으로 패턴을 과잉 해석함으로써, hallucinate하고 몽환적인 느낌의 사진을 출력합니다.
 
 # Results
+
 * learning_rate(학습률) 값을 다르게 입력함으로써 사진이 출력되는 결과입니다.
-   * 원본![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg "원본")
+   * 원본
+![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg "원본")
 	* 학습률 0.5 적용
 ![학습률 0.5 적용](https://i.esdrop.com/d/f/XDglyqtPeL/Sz5ZQtKTDl.png "학습률 0.5 적용")
 	* 학습률 1.5 적용( default)
@@ -25,6 +28,7 @@
 # Analysis/Visualization
 
 # Installation
+
 * ## 준비사항
 	* [PyTorch](https://pytorch.org/) 다운로드
 		*	<p>NVIDIA GPU 사용을 권장합니다</p>
@@ -44,10 +48,9 @@
 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png` <br>
 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png ` <br>
 
-* ## 옵션
+* ## 옵션 [출처](https://github.com/ProGamerGov/neural-dream#usage)
 
 	**Options**:
-
 
 -   `-image_size`: Maximum side length (in pixels) of the generated image. Default is 512.
 -   `-gpu`: Zero-indexed ID of the GPU to use; for CPU mode set  `-gpu`  to  `c`.
