@@ -13,14 +13,21 @@
 	* 입력된 이미지에 의도적으로 패턴을 과잉 해석함으로써, hallucinate하고 몽환적인 느낌의 사진을 출력합니다.
 
 # Results
-
-* learning_rate(학습률) 값을 다르게 입력함으로써 사진이 출력되는 결과입니다.
+  
    * 원본
 ![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg "원본")
+
+	* 결과
+![gif](https://i.esdrop.com/d/f/XDglyqtPeL/v3fOmRy4sG.gif)
+
+* learning_rate(학습률) 값을 다르게 입력함으로써 사진이 출력되는 결과입니다.
+	
 	* 학습률 0.5 적용
 ![학습률 0.5 적용](https://i.esdrop.com/d/f/XDglyqtPeL/Sz5ZQtKTDl.png "학습률 0.5 적용")
+	
 	* 학습률 1.5 적용( default)
 ![학습률 1.5 적용(default)](https://i.esdrop.com/d/f/XDglyqtPeL/qheN0WnrGC.png "학습률 1.5 적용")
+	 
 	 * 학습률 3.0 적용
 ![학습률 3.0 적용](https://i.esdrop.com/d/f/XDglyqtPeL/B6WHYGEB7V.png "학습률 3.0 적용")
 
@@ -31,24 +38,36 @@
 
 * ## 준비사항
 	* [PyTorch](https://pytorch.org/) 다운로드
-		*	<p>NVIDIA GPU 사용을 권장합니다</p>
+		*	**NVIDIA GPU** 사용을 권장합니다
 	
-	*  pre-training model  다운로드<br>
+	*  pre-training model  다운로드
+
+
 		` python models/download_models.py -models all `
 		
 
 * ## 사용
+
+
 	* 기본 
 	
 	 `python neural_dream.py -content_image <image_path/image.jpg> `
 
  	* Result에 사용된 코드
 	
-	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 0.5 -image_size 1024 -output_image learning5.png` <br>
-	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png` <br>
+	
+	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 0.5 -image_size 1024 -output_image learning5.png` 
+
+
+	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png` 
+
+
 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png ` <br>
 
+
+
 * ## 옵션 [[출처]](https://github.com/ProGamerGov/neural-dream#usage)
+
 
 	**Options**:
 
@@ -145,13 +164,18 @@
 -   `-label_file`: Path to the  `.txt`  category list file for classification and channel selection.
 -   `-random_transforms`: Whether to use random transforms on the image; either  `none`,  `rotate`,  `flip`, or  `all`; default is  `none`.
 -   `-classify`: Display what the model thinks an image contains. Integer for the number of choices ranked by how likely each is.
+
+
 * ## 에러 발생
 	* 해당 소스코드 실행 시, 발생했던 에러 해결을 기술
+
 
 * ### case 1 : AssertionError: Torch not compiled with CUDA enabled
 	* 해당 코드로 해결 가능
 	* 소스 코드 자체가 3년 전 마지막으로 업데이트이기에 최신 버전이 아니어도 구동 가능
 	`pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html`
+	
+	
 * ### case 2 : RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
 	 * NVIDIA GPU 설치된 머신에서 실행 권장
 	 * 본인은 노트북에서 실행이 안됨을 깨닫고, desktop에서 실행
