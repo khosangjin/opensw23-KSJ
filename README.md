@@ -12,9 +12,13 @@
 	* 입력된 이미지에 의도적으로 패턴을 과잉 해석함으로써, hallucinate하고 몽환적인 느낌의 사진을 출력합니다.
 
 # Results
-![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg "원본")
+* learning_rate(학습률) 값을 다르게 입력함으로써 사진이 출력되는 결과입니다.
+   * 원본![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg "원본")
+	* 학습률 0.5 적용
 ![학습률 0.5 적용](https://i.esdrop.com/d/f/XDglyqtPeL/Sz5ZQtKTDl.png "학습률 0.5 적용")
+	* 학습률 1.5 적용( default)
 ![학습률 1.5 적용(default)](https://i.esdrop.com/d/f/XDglyqtPeL/qheN0WnrGC.png "학습률 1.5 적용")
+	 * 학습률 3.0 적용
 ![학습률 3.0 적용](https://i.esdrop.com/d/f/XDglyqtPeL/B6WHYGEB7V.png "학습률 3.0 적용")
 
 
@@ -23,18 +27,25 @@
 # Installation
 * ## 준비사항
 	* [PyTorch](https://pytorch.org/) 다운로드
+		*	<p>NVIDIA GPU 사용을 권장합니다</p>
 	
 	*  pre-training model  다운로드
 		` python models/download_models.py -models all `
+		
 
 * ## 사용
 	* 기본 
-	 `python neural_dream.py -content_image <image.jpg> `
-	 * 옵션 +
-	` python neural_dream.py -content_image examples/inputs/konkuk.jpg -output_image path_nin_cudnn.png -gpu 0 -backend cudnn -num_iterations 10 -dream_weight 10 -image_size 1024 -optimizer adam -learning_rate 3`
+	 `python neural_dream.py -content_image <image_path/image.jpg> `
+
+ 	* Result에 사용된 코드
+	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 0.5 -image_size 1024 -output_image learning5.png `
+	 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png `
+	 	 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png `
 
 * ## 옵션
+
 	**Options**:
+
 
 -   `-image_size`: Maximum side length (in pixels) of the generated image. Default is 512.
 -   `-gpu`: Zero-indexed ID of the GPU to use; for CPU mode set  `-gpu`  to  `c`.
