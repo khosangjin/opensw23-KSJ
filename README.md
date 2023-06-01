@@ -13,8 +13,8 @@
 
 # Results
 ![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg)
-![가중치 0.5 적용](https://https://i.esdrop.com/d/f/XDglyqtPeL/Sz5ZQtKTDl.png)
-![가중치 1.5 적용(default)](https://https://i.esdrop.com/d/f/XDglyqtPeL/qheN0WnrGC.png)
+![가중치 0.5 적용](https://i.esdrop.com/d/f/XDglyqtPeL/Sz5ZQtKTDl.png)
+![가중치 1.5 적용(default)](https://i.esdrop.com/d/f/XDglyqtPeL/qheN0WnrGC.png)
 ![가중치 3.0 적용](https://i.esdrop.com/d/f/XDglyqtPeL/B6WHYGEB7V.png)
 
 
