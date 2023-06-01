@@ -14,11 +14,11 @@
 
 # Results
   
-   * 원본
+	* 원본
 ![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg "원본")
 
 	* 결과
-![gif](https://i.esdrop.com/d/f/XDglyqtPeL/v3fOmRy4sG.gif)
+![gif](https://i.esdrop.com/d/f/XDglyqtPeL/v3fOmRy4sG.gif "gif")
 
 * learning_rate(학습률) 값을 다르게 입력함으로써 사진이 출력되는 결과입니다.
 	
