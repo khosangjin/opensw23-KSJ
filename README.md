@@ -33,7 +33,7 @@
 	* [PyTorch](https://pytorch.org/) 다운로드
 		*	<p>NVIDIA GPU 사용을 권장합니다</p>
 	
-	*  pre-training model  다운로드
+	*  pre-training model  다운로드<br>
 		` python models/download_models.py -models all `
 		
 
@@ -48,7 +48,7 @@
 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png` <br>
 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png ` <br>
 
-* ## 옵션 [출처](https://github.com/ProGamerGov/neural-dream#usage)
+* ## 옵션 [[출처]](https://github.com/ProGamerGov/neural-dream#usage)
 
 	**Options**:
 
