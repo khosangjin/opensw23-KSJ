@@ -61,13 +61,13 @@
 		`python neural_dream.py -content_image konkuk.jpg -image_size 1024 -output_image learninggif.png -create_gif -num_iterations 10 `
 	
 	
-		`python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 0.5 -image_size 1024 -output_image learning5.png` 
+		`python neural_dream.py -content_image konkuk.jpg -learning_rate 0.5 -image_size 1024 -output_image learning5.png` 
 
 
-		`python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png` 
+		`python neural_dream.py -content_image konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png` 
 
 
-		`python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png ` <br>
+		`python neural_dream.py -content_image konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png ` <br>
 
 
 * ## 옵션 [[출처]](https://github.com/ProGamerGov/neural-dream#usage)
@@ -178,6 +178,8 @@
 * ### case 1 : AssertionError: Torch not compiled with CUDA enabled
 	* 해당 코드로 해결 가능
 	* 소스 코드 자체가 3년 전 마지막으로 업데이트이기에 최신 버전이 아니어도 구동 가능
+	
+	
 	`pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html`
 	
 	
