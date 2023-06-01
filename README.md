@@ -12,10 +12,10 @@
 	* 입력된 이미지에 의도적으로 패턴을 과잉 해석함으로써, hallucinate하고 몽환적인 느낌의 사진을 출력합니다.
 
 # Results
-![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg)
-![가중치 0.5 적용](https://i.esdrop.com/d/f/XDglyqtPeL/Sz5ZQtKTDl.png)
-![가중치 1.5 적용(default)](https://i.esdrop.com/d/f/XDglyqtPeL/qheN0WnrGC.png)
-![가중치 3.0 적용](https://i.esdrop.com/d/f/XDglyqtPeL/B6WHYGEB7V.png)
+![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg "원본")
+![학습률 0.5 적용](https://i.esdrop.com/d/f/XDglyqtPeL/Sz5ZQtKTDl.png "학습률 0.5 적용")
+![학습률 1.5 적용(default)](https://i.esdrop.com/d/f/XDglyqtPeL/qheN0WnrGC.png "학습률 1.5 적용")
+![학습률 3.0 적용](https://i.esdrop.com/d/f/XDglyqtPeL/B6WHYGEB7V.png "학습률 3.0 적용")
 
 
 # Analysis/Visualization
