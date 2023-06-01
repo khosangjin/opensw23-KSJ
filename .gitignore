@@ -1,0 +1,6 @@
+*.swp
+**.pyc
+**.pth
+models/
+!models/download_models.py
+**__pycache__/
