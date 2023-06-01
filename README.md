@@ -9,13 +9,13 @@
 * ## 딥 드림 (Deep-Dream, Neural-dream)
 	* 딥 드림(Deep-Dream)은 합성곱-신경망(Convolutional neural network, CNN)이 학습한 패턴을 시각화(Visualize)한 알고리즘입니다.
 <br>
-	- 입력된 이미지에 의도적으로 패턴을 과잉 해석함으로써, hallucinate하고 몽환적인 느낌의 사진을 출력합니다.
+	* 입력된 이미지에 의도적으로 패턴을 과잉 해석함으로써, hallucinate하고 몽환적인 느낌의 사진을 출력합니다.
 
 # Results
-**![원본사진]("https://imgur.com/a/1rQ4mHI")**
-**![learning_rate 0.5]("https://imgur.com/mCPPZK1")**
-**![learning_rate 1.5]("https://imgur.com/undefined")**
-**![learning_rate 3]("https://imgur.com/BAZ47uF")**
+[Imgur](https://imgur.com/k3rVXBH)
+[Imgur](https://imgur.com/mCPPZK1)
+[Imgur](https://imgur.com/WEa8bOu)
+[Imgur](https://imgur.com/BAZ47uF)
 
 
 # Analysis/Visualization
