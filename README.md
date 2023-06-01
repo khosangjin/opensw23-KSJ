@@ -35,12 +35,14 @@
 
 * ## 사용
 	* 기본 
+	
 	 `python neural_dream.py -content_image <image_path/image.jpg> `
 
  	* Result에 사용된 코드
+	
 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 0.5 -image_size 1024 -output_image learning5.png `
-	 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png `
-	 	 	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png `
+	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 1.5 -image_size 1024 -output_image learning15.png `
+	 `python neural_dream.py -content_image examples/inputs/konkuk.jpg -learning_rate 3 -image_size 1024 -output_image learning30.png `
 
 * ## 옵션
 
