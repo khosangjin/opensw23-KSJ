@@ -2,8 +2,9 @@
 # opensw23-KSJ
 
 # Team Introduction
-* 이름 : Khosangjin 
- * ID :  202011248
+* Name : Khosangjin 
+* ID :  202011248
+* Role : overall in project
 
 # Topic Introduction
 
