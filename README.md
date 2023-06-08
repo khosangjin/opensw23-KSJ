@@ -37,32 +37,32 @@
 
 * 다른 다양한 사진
 <p align="center">	
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/6pvp7CzRP2.png" align="center" width="32%">
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/B9LUi8909F.png" align="center" width="32%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/6pvp7CzRP2.png" align="center" width="45%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/B9LUi8909F.png" align="center" width="45%">
 	<figcaption align="center">제주바다</figcaption>
 </p>
 
 <p align="center">	
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/hOEDD52ozN.png" align="center" width="32%">
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/4nhlHislvY.png" align="center" width="32%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/hOEDD52ozN.png" align="center" width="45%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/4nhlHislvY.png" align="center" width="45%">
 	<figcaption align="center">동해바다</figcaption>
 </p>
 
 <p align="center">	
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/HRFS5rSwkB.png" align="center" width="32%">
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/NHRxtUNKX8.png" align="center" width="32%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/HRFS5rSwkB.png" align="center" width="45%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/NHRxtUNKX8.png" align="center" width="45%">
 	<figcaption align="center">한라산</figcaption>
 </p>
 
 <p align="center">	
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/WJyCV1ibbU.png" align="center" width="32%">
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/ts7kNnYYJk.png" align="center" width="32%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/WJyCV1ibbU.png" align="center" width="45%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/ts7kNnYYJk.png" align="center" width="45%">
 	<figcaption align="center">임진강</figcaption>
 </p>
 
 <p align="center">	
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/yvA5GYKkvt.png" align="center" width="32%">
-	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/aUYohcnzo0.png" align="center" width="32%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/yvA5GYKkvt.png" align="center" width="45%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/aUYohcnzo0.png" align="center" width="45%">
 	<figcaption align="center">HCTR</figcaption>
 </p>
 
