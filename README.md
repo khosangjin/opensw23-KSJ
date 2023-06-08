@@ -37,15 +37,22 @@
 * 여러 이미지를 deep-dream 함으로써 얻어진 결과물을 분석한 내용이다.
 
 * ## 단색 이미지
-	
+<p align="center">	
 <img src="https://i.esdrop.com/d/f/XDglyqtPeL/GtPCwHwNEo.png" align="center" width="90%">
 <figcaption align="center">원본 이미지</figcaption>
-	
+</p>
+
+
+<p align="center">
 <img src="https://i.esdrop.com/d/f/XDglyqtPeL/6HCTcX7ijP.png" align="center" width="90%">
 <figcaption align="center">1회 반복</figcaption>
+</p>
 	
+	
+<p align="center">
 <img src="https://i.esdrop.com/d/f/XDglyqtPeL/NRtkouq7H4.png" align="center" width="90%">
 <figcaption align="center">10회 반복</figcaption>
+</p>
 
 * 단색 이미지임에도 불구하고, 출력된 이미지에서 구불구불한 문양과 일부 부분에서는 동물과 탑 모양의 패턴을 찾을 수 있음.
 * 패턴이 발생한 이유는 inception 모델의 layers로 얻어진 손실(loss)과 원본 이미지로 deep-dream 하는 과정 中, 손상된 이미지에서 과장해석되는 패턴으로 분석됨.
