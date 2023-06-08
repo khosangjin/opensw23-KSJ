@@ -15,6 +15,9 @@
 
 # Results
   
+* 기존 repo의 example 사진 포함 총 24개의 사진을 실험했습니다.
+* 이중 대표적인 사진을 소개합니다
+  
 	* 원본
 ![원본](https://i.esdrop.com/d/f/XDglyqtPeL/4kJdlMe3t1.jpg "원본")
 
@@ -32,6 +35,36 @@
 	* 학습률 3.0 적용
 ![학습률 3.0 적용](https://i.esdrop.com/d/f/XDglyqtPeL/B6WHYGEB7V.png "학습률 3.0 적용")
 
+* 다른 다양한 사진
+<p align="center">	
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/6pvp7CzRP2.png" align="center" width="90%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/B9LUi8909F.png" align="center" width="90%">
+	<figcaption align="center">제주바다</figcaption>
+</p>
+
+<p align="center">	
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/hOEDD52ozN.png" align="center" width="90%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/4nhlHislvY.png" align="center" width="90%">
+	<figcaption align="center">동해바다</figcaption>
+</p>
+
+<p align="center">	
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/HRFS5rSwkB.png" align="center" width="90%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/NHRxtUNKX8.png" align="center" width="90%">
+	<figcaption align="center">한라산</figcaption>
+</p>
+
+<p align="center">	
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/WJyCV1ibbU.png" align="center" width="90%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/ts7kNnYYJk.png" align="center" width="90%">
+	<figcaption align="center">임진강</figcaption>
+</p>
+
+<p align="center">	
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/yvA5GYKkvt.png" align="center" width="90%">
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/aUYohcnzo0.png" align="center" width="90%">
+	<figcaption align="center">HCTR</figcaption>
+</p>
 
 # Analysis/Visualization
 
