@@ -38,20 +38,20 @@
 
 * ## 단색 이미지
 <p align="center">	
-<img src="https://i.esdrop.com/d/f/XDglyqtPeL/GtPCwHwNEo.png" align="center" width="90%">
-<figcaption align="center">원본 이미지</figcaption>
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/GtPCwHwNEo.png" align="center" width="90%">
+	<figcaption align="center">원본 이미지</figcaption>
 </p>
 
 
 <p align="center">
-<img src="https://i.esdrop.com/d/f/XDglyqtPeL/6HCTcX7ijP.png" align="center" width="90%">
-<figcaption align="center">1회 반복</figcaption>
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/6HCTcX7ijP.png" align="center" width="90%">
+	<figcaption align="center">1회 반복</figcaption>
 </p>
 	
 	
 <p align="center">
-<img src="https://i.esdrop.com/d/f/XDglyqtPeL/NRtkouq7H4.png" align="center" width="90%">
-<figcaption align="center">10회 반복</figcaption>
+	<img src="https://i.esdrop.com/d/f/XDglyqtPeL/NRtkouq7H4.png" align="center" width="90%">
+	<figcaption align="center">10회 반복</figcaption>
 </p>
 
 * 단색 이미지임에도 불구하고, 출력된 이미지에서 구불구불한 문양과 일부 부분에서는 동물과 탑 모양의 패턴을 찾을 수 있음.
