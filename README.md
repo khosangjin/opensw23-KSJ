@@ -39,8 +39,10 @@
 * ## 단색 이미지
 	* 원본
 ![흰색 단색 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/GtPCwHwNEo.png "흰색 단색 이미지")
+
 	* 1번째 반복
 ![흰색 단색 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/6HCTcX7ijP.png "흰색 단색 1회 이미지")
+
 	* 10번째 반복
 ![흰색 단색 10회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/NRtkouq7H4.png "흰색 단색 10회 이미지")
 
@@ -53,8 +55,10 @@
 * 이미 일정한 패턴이 존재하는 이미지를 준비했다.
 	* 원본
 <img  src="https://i.esdrop.com/d/f/XDglyqtPeL/Bn8EZmGVxc.jpg"  width="50%"  height="50%"/>
+
 	* 1번째 반복
 ![벽돌 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/mkwz2CUOET.png "벽돌 1회 이미지")
+
 	* 10번째 반복
 ![벽돌 10회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/S9GmRqjtts.png "벽돌 10회 이미지")
 
@@ -67,8 +71,10 @@
 * 패턴이 적은 일상 이미지
 	* 원본
 <img  src="https://i.esdrop.com/d/f/XDglyqtPeL/qMTV1TZH7z.jpg"  width="50%"  height="50%"/>
+
 	* 1번째 반복
 ![풍경 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/4Ozqm0AEOH.png "벽돌 1회 이미지")
+
 	* 10번째 반복
 ![풍경 10회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/gqZyKbaxWf.png "벽돌 10회 이미지")
 
