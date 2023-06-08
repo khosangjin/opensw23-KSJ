@@ -63,6 +63,7 @@
 * 10회 반복한 이미지 속에서 자그만하게 동물의 모양이 관측된다는 점에서 반복 횟수를 더 늘리면 더 많은 패턴을 관측을 예측
 
 * ## 불규칙 이미지
+
 * 패턴이 적은 일상 이미지
 	* 원본
 <img  src="https://i.esdrop.com/d/f/XDglyqtPeL/qMTV1TZH7z.jpg"  width="50%"  height="50%"/>
