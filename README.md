@@ -35,7 +35,7 @@
 
 # Analysis/Visualization
 
-* 여러 이미지를 deep-dream 함으로써 얻어진 결과물을 분석한 내용이다.
+* 여러 이미지를 deep-dream 함으로써 얻어진 결과물을 분석한 내용.
 
 * ## 단색 이미지
 <p align="center">	
@@ -61,7 +61,7 @@
 
 * ## 패턴 이미지
 
-* 이미 일정한 패턴이 존재하는 이미지를 준비했다.
+* 이미 일정한 패턴이 존재하는 이미지를 준비.
 
 <p align="center">
   <img src="https://i.esdrop.com/d/f/XDglyqtPeL/Bn8EZmGVxc.jpg" align="center" width="32%">
@@ -76,7 +76,7 @@
 
 * ## 불규칙 이미지
 
-* 패턴이 적은 일상 이미지
+* 패턴이 거의 존재하지 않는, 대부분 일상적인 이미지
 
 <p align="center">
   <img src="https://i.esdrop.com/d/f/XDglyqtPeL/qMTV1TZH7z.jpg" align="center" width="32%">
