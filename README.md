@@ -34,6 +34,61 @@
 
 # Analysis/Visualization
 
+* 여러 이미지를 deep-dream 함으로써 얻어진 결과물을 분석한 내용이다.
+
+* ## 단색 이미지
+
+	* 원본
+![흰색 단색 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/GtPCwHwNEo.png "흰색 단색 이미지")
+
+	* 1번째 반복
+![흰색 단색 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/6HCTcX7ijP.png "흰색 단색 1회 이미지")
+
+	* 10번째 반복
+![흰색 단색 10회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/NRtkouq7H4.png "흰색 단색 10회 이미지")
+
+* 단색 이미지임에도 불구하고, 출력된 이미지에서 구불구불한 문양과 일부 부분에서는 동물과 탑 모양의 패턴을 찾을 수 있음
+* inception 모델의 layers로 얻어진 손실(loss)와 원본 이미지로 deep-dream 하는 과정에서 손상된 이미지 속에서 과장해석되는 패턴으로 분석됨
+* 부분 부분 생기는 이유는 이미지를 처음 해석하는 과정에서 임의의 위치에서 시작하기 때문이라고 추측, 실제로 동일한 사진을 여러번 deep-dream을 시키면 다른 위치에서 비슷한 패턴이 생기는 것에서 유추
+
+* ## 패턴 이미지
+
+* 이미 일정한 패턴이 존재하는 이미지를 준비했다.
+
+	* 원본
+<img  src="https://i.esdrop.com/d/f/XDglyqtPeL/Bn8EZmGVxc.jpg"  width="50%"  height="50%"/>
+
+	* 1번째 반복
+![벽돌 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/mkwz2CUOET.png "벽돌 1회 이미지")
+
+	* 10번째 반복
+![벽돌 10회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/S9GmRqjtts.png "벽돌 10회 이미지")
+
+* 이음새마다 기둥 모양의 패턴이 반복적으로 등장, 벽돌 부분에서는 동물, 하단부분에서는 자동차의 모양 지속적으로 등장 
+* 비슷한 모양이 반복적으로 등장하는 부분에서 원본 이미지의 영향이 있음
+* 10회 반복한 이미지 속에서 자그만하게 동물의 모양이 관측된다는 점에서 반복 횟수를 더 늘리면 더 많은 패턴을 관측을 예측
+
+* ## 불규칙 이미지
+
+* 패턴이 적은 일상 이미지
+
+	* 원본
+<img  src="https://i.esdrop.com/d/f/XDglyqtPeL/qMTV1TZH7z.jpg"  width="50%"  height="50%"/>
+
+	* 1번째 반복
+![풍경 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/4Ozqm0AEOH.png "벽돌 1회 이미지")
+
+	* 10번째 반복
+![풍경 10회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/gqZyKbaxWf.png "벽돌 10회 이미지")
+
+* 같은 것끼리 부분을 나눠서 비슷한 패턴이 등장
+* 단색의 하늘에서는 비슷한 모양의 패턴이 불규칙적인 위치에서 등장
+* 건물은 원본의 거물의 모양이 유지됨을 확인. 다만 건물을 더 과장되게 표현
+* 가게은 자동차 같은 모양이 지속적으로 등장
+* 타일 바닥은 기존의 불규칙적인 문양의 영향으로 보이는 동물과 구불구불한 모양이 합쳐진 패턴이 등장함
+* 부분적으로 나눠서 보면 원본의 이미지로부터 많이 변형된 것처럼 보이지만, 전체적으로 보면 형태는 유지되고 있음
+
+
 # Installation
 
 * ## 준비사항
