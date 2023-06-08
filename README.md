@@ -11,7 +11,7 @@
 * ## 딥 드림 (Deep-Dream, Neural-dream)
 	* 딥 드림(Deep-Dream)은 합성곱-신경망(Convolutional neural network, CNN)이 학습한 패턴을 시각화(Visualize)한 알고리즘입니다.
 	
-	* 입력된 이미지에 의도적으로 패턴을 과잉 해석함으로써, hallucinate하고 몽환적인 느낌의 사진을 출력합니다.
+	* 입력된 이미지를 의도적으로 패턴을 과잉 해석함으로써, hallucinate하고 몽환적인 느낌의 사진을 출력합니다.
 
 # Results
   
@@ -170,6 +170,9 @@
 
 * ## 옵션 [[출처]](https://github.com/ProGamerGov/neural-dream#usage)
 
+* 정정사항
+	* -model_file 옵션의 디폴트 값이 VGG-19모델로 표기되어 있으나, 해당 모델은 구동이 안됨을 확인했습니다. 
+	* 따라서 bvlc_googlenet.pth 이 디폴트 모델로 설정되어 내용과 다름을 알려드립니다.
 
 	**Options**:
 
