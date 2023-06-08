@@ -2,7 +2,7 @@
 # opensw23-KSJ
 
 # Team Introduction
-* 이름 : khosangjin 
+* 이름 : Khosangjin 
  * ID :  202011248
 
 # Topic Introduction
@@ -37,12 +37,10 @@
 * 여러 이미지를 deep-dream 함으로써 얻어진 결과물을 분석한 내용이다.
 
 * ## 단색 이미지
-
-	* 원본
+		* 원본
 	
 ![흰색 단색 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/GtPCwHwNEo.png "흰색 단색 이미지")
-
-
+	
 	* 1번째 반복
 	
 ![흰색 단색 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/6HCTcX7ijP.png "흰색 단색 1회 이미지")
@@ -60,19 +58,12 @@
 
 * 이미 일정한 패턴이 존재하는 이미지를 준비했다.
 
-	* 원본
-	
-<img  src="https://i.esdrop.com/d/f/XDglyqtPeL/Bn8EZmGVxc.jpg"  width="50%"  height="50%"/>
-
-
-	* 1번째 반복
-	
-![벽돌 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/mkwz2CUOET.png "벽돌 1회 이미지")
-
-
-	* 10번째 반복
-	
-![벽돌 10회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/S9GmRqjtts.png "벽돌 10회 이미지")
+<p align="center">
+  <img src="https://i.esdrop.com/d/f/XDglyqtPeL/Bn8EZmGVxc.jpg" align="center" width="32%">
+  <img src="https://i.esdrop.com/d/f/XDglyqtPeL/mkwz2CUOET.png" align="center" width="32%">
+  <img src="https://i.esdrop.com/d/f/XDglyqtPeL/S9GmRqjtts.png" align="center" width="32%">
+  <figcaption align="center">원본 이미지 / 1회 반복 / 10회 반복</figcaption>
+</p>
 
 * 이음새마다 기둥 모양의 패턴이 반복적으로 등장, 벽돌 부분에서는 동물, 하단부분에서는 자동차의 모양 지속적으로 등장 
 * 비슷한 모양이 반복적으로 등장하는 부분에서 원본 이미지의 영향이 있음
@@ -82,19 +73,12 @@
 
 * 패턴이 적은 일상 이미지
 
-	* 원본
-	
-<img  src="https://i.esdrop.com/d/f/XDglyqtPeL/qMTV1TZH7z.jpg"  width="50%"  height="50%"/>
-
-
-	* 1번째 반복
-	
-![풍경 1회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/4Ozqm0AEOH.png "벽돌 1회 이미지")
-
-
-	* 10번째 반복
-	
-![풍경 10회 이미지](https://i.esdrop.com/d/f/XDglyqtPeL/gqZyKbaxWf.png "벽돌 10회 이미지")
+<p align="center">
+  <img src="https://i.esdrop.com/d/f/XDglyqtPeL/qMTV1TZH7z.jpg" align="center" width="32%">
+  <img src="https://i.esdrop.com/d/f/XDglyqtPeL/4Ozqm0AEOH.png" align="center" width="32%">
+  <img src="https://i.esdrop.com/d/f/XDglyqtPeL/gqZyKbaxWf.png" align="center" width="32%">
+  <figcaption align="center">원본 이미지 / 1회 반복 / 10회 반복</figcaption>
+</p>
 
 * 같은 것끼리 부분을 나눠서 비슷한 패턴이 등장
 * 단색의 하늘에서는 비슷한 모양의 패턴이 불규칙적인 위치에서 등장
